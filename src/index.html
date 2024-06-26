@@ -9,7 +9,20 @@
     <title>Vite Template</title>
   </head>
   <body>
-    <h1>HOLA</h1>
+   <div id="box" class="box box--red"></div>
+   <button id="button">change color</button>
+
+   <form id="form">
+    <label for="name">Nombre</label>
+    <input type="text" id="name" name="nombre">
+    <label for="name">AGE</label>
+    <input type="text" id="age" name="age">
+    <label for="gender">Man</label>
+    <input type="radio" name="gender" id="gender-man"/>
+    <label for="gender-woman">Woman</label>
+    <input type="radio" name="gender" id="gender-woman"/>
+    <input type="submit" value="SEND">
+   </form>
     <script type="module" src="./js/index.js"></script>
   </body>
 </html>
